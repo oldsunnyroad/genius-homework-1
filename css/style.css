@@ -147,18 +147,21 @@ ul {
   border-radius: 20px;
 }
 
+.customer-info-form form label {
+  color: var(--primary-footer-background-color);
+}
+
 /* Footer Section */
 
 footer {
   background-color: var(--primary-footer-background-color);
 }
 
-footer p,
-a {
+footer a {
   color: var(--primary-footer-font-color);
 }
 
-.social-logos a img {
+.social-logos img path {
   fill: var(--primary-footer-font-color);
 }
 .privacy-policy p {
